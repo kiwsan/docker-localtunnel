@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+
+  localtunnel:
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: always
+    environment:
+      - REMOTE_HOST=kiwsan      
