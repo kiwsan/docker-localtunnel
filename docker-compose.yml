@@ -7,5 +7,4 @@ services:
       dockerfile: Dockerfile
       context: .
     restart: always
-    environment:
-      - REMOTE_HOST=kiwsan      
+    command: "--port 8080 --subdomain kiwsan"
