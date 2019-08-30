@@ -7,4 +7,4 @@ services:
       dockerfile: Dockerfile
       context: .
     restart: always
-    command: "--port 8080 --subdomain kiwsan"
+    command: " --local-host <your_host> --port 8080 --subdomain <your_subdomain>"
